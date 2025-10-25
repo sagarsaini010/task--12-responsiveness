@@ -1,0 +1,91 @@
+@font-face {
+    font-family: japan;
+    src: url(./1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+    font-family: japan;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+background-color: #f1f1f1;
+}
+
+header{
+    padding-top: 3.5rem;
+    width: 100%;
+    text-align: center; 
+    h1{
+        font-weight: 700; 
+        text-transform: uppercase;
+        font-size: 2rem; 
+        padding-bottom: 1.5rem;
+    }
+    p{font-size: .81rem;
+       font-weight: 500;
+    .w3-tag{
+        
+        background-color: black;
+        color: white;
+        padding: .2rem .5rem;
+
+    }
+    }
+}
+
+main{
+    padding: 1rem;
+    .hero-section{
+        .para{
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+            margin-top: 3rem;
+            .top-image{
+                img{
+                    width: 100%;
+
+                }
+            }
+            .text{
+                padding: 0 0.51rem;
+                h1{
+                    padding: 1rem 0;
+                    text-transform: uppercase;
+                    font-size: 1.5rem;
+                }
+                .description{
+                    padding-bottom: 1rem;
+                    font-size: 1rem;
+                    letter-spacing: 0px;
+
+                    span{
+                        color: rgba(0, 0, 0, 0.493);
+                        font-size: 1.3rem;
+                    }
+                }
+                .detail{
+                    font-size: 0.91rem;
+                    line-height: 1.5;
+                    padding-bottom: 2.5rem;
+                }
+
+                a{
+                    border: 1px solid black;
+                    padding: .81rem 1.5rem;
+                    text-decoration: none;
+                    background-color: #f1f1f1;
+                    color: black;
+                    font-weight: 700;
+                    margin-bottom: 2rem;
+                    display: inline-block;
+                   
+                }
+            }
+        }
+    }
+}
