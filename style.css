@@ -17,6 +17,8 @@ html, body {
 }
 
 header {
+  max-width: 1400px;
+  margin: auto;
   padding-top: 3.5rem;
   width: 100%;
   text-align: center;
@@ -38,7 +40,9 @@ header p .w3-tag {
 }
 
 main {
+  max-width: 1400px;
   padding: 1rem;
+  margin: auto;
 }
 main .hero-section .para {
   background-color: #ffffff;
@@ -79,4 +83,113 @@ main .hero-section .para .text a {
   font-weight: 700;
   margin-bottom: 2rem;
   display: inline-block;
+}
+main .aside .name {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+  margin: 2rem 0;
+}
+main .aside .name img {
+  width: 100%;
+}
+main .aside .name .text {
+  padding: 0 0.51rem;
+  padding-bottom: 1rem;
+}
+main .aside .name .text h4 {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+main .aside .name .text p {
+  font-size: 1rem;
+}
+main .aside .posts {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+main .aside .posts .head h2 {
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+}
+main .aside .posts .main-post {
+  padding-bottom: 1rem;
+}
+main .aside .posts .main-post .post {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+main .aside .posts .main-post .post img {
+  width: 60px;
+}
+main .aside .posts .main-post .post .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .aside .tags {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+  margin-top: 3rem;
+}
+main .aside .tags .tag {
+  padding: 1rem 0.5rem;
+}
+main .aside .tags .tag h2 {
+  font-weight: 500;
+}
+main .aside .tags .list {
+  background-color: #ffffff;
+}
+main .aside .tags .list p {
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}
+main .aside .tags .list p span {
+  background-color: #cfcfcf;
+  padding: 0.1rem;
+}
+
+footer {
+  background-color: #616161;
+  padding: 2rem 1rem;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+}
+footer .btn {
+  padding: 0.7rem 1.5rem;
+}
+footer .next {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+footer .prev {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+footer p {
+  font-size: 0.8rem;
+  color: #ffffff;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 980px) {
+  main {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+  .aside {
+    padding-top: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
